@@ -2,8 +2,8 @@
 fucntion Letter (letter){
     this.letter = letter,
     this.guessed = false,
-    this.reveal = function(){
-
+    this.reveal = function(userInput){
+        if (userInput == this.letter
     }
 } ;
 //  * A string value to store the underlying character for the letter
